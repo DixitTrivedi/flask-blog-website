@@ -8,7 +8,7 @@ import math
 from datetime import datetime
 
 
-with open('C:\\Users\\Diku\\Desktop\codes\\flask_blog_site\\flaskblogsite\\flask-blog-website\\config.json', 'r') as c:
+with open('config.json', 'r') as c:
     params = json.load(c)["params"]
 
 local_server = True
